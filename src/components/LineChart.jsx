@@ -33,7 +33,7 @@ const LineChart = ({ chartPriceData }) => {
     labels: chartSampleData.labels || [],
     datasets: [
       {
-        label: 'AAPL Price',
+        label: 'BTCUSDT Price',
         data: chartSampleData.data || [],
         backgroundColor: 'rgba(75,192,192,0.2)',
         borderColor: 'rgba(75,192,192,1)',
