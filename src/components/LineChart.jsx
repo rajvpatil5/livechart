@@ -53,7 +53,7 @@ const LineChart = ({ chartPriceData }) => {
 
   return (
     <div>
-      <h2>Bar Chart Example</h2>
+      <h2>Line Chart Example</h2>
       <Line data={data} options={options} />
     </div>
   );
